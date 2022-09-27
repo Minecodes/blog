@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.minecodes.de/blog</id>
+    <title>Minecodes Blog Blog</title>
+    <updated>2022-09-27T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.minecodes.de/blog"/>
+    <subtitle>Minecodes Blog Blog</subtitle>
+    <icon>https://blog.minecodes.de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Security Posts]]></title>
+        <id>sec</id>
+        <link href="https://blog.minecodes.de/blog/sec"/>
+        <updated>2022-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Title: Steam Phishing]]></summary>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-note alert alert--secondary admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Steam Phishing</div><div class="admonitionContent_S0QG"><p>Title: Steam Phishing<br>
+Author: Minecodes<br>
+Date: 2022-09-27<br>
+Documents: <a href="https://dl.minecodes.de/sec/phishing/steam/76561199075101489/" target="_blank" rel="noopener noreferrer">https://dl.minecodes.de/sec/phishing/steam/76561199075101489/</a></p></div></div><p>A few days ago I received a friend request on Steam from an account I didn't know and asked them why they had sent me a request.
+Today I received a message from this account. It was a phishing attempt to get my Steam account.
+I looked into the site over an secured environment and looked at the site. It was a fake Steam login page.
+I created an fake account and looked how the site works. The problem is it covers it's steps over it's own servers.
+It's hosted on Cloudflare and had an .asia TLD. When I then registered with a fake account, it was taken over immediately.
+I then had self-locked it because it was newly created anyway via a temporary email and I don't want that the owners of the site can do more with it.
+I also wrote an report to steam. I hope they will take action against this site.
+When you want to research into it you can do that with the documents in the link in the info box.</p>]]></content>
+        <author>
+            <name>Minecodes</name>
+            <email>contact@minecodes.de</email>
+            <uri>https://minecodes.de</uri>
+        </author>
+        <category label="minecodes" term="minecodes"/>
+        <category label="blog" term="blog"/>
+        <category label="sec" term="sec"/>
+        <category label="cybersec" term="cybersec"/>
+        <category label="scam" term="scam"/>
+        <category label="security" term="security"/>
+        <category label="phishing" term="phishing"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://blog.minecodes.de/blog/welcome"/>
+        <updated>2022-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Minecodes Blog!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to Minecodes Blog!<br>
+I'm a student and software developer from Germany.<br>
+I'm currently working on a lot of projects, but also sometimes researching in cybersecurity and server administration.
+I also started an project for finding, reporting and researching into spam or scam emails.<br>
+I started it, because some companies abuse contact emails on Github and send spam (it's illegal in Germany).</p><p>Also I work/worked at Minimania (Dev), VipeCity.net (Dev), TryGaming (Mod) and Entenrasten/Ententalk (Mod).<br>
+I created Minecraft plugins, Discord bots and other tools there.<br>
+I host multiple applications myself and try to make an own version of software.</p><p>I started to program in 2017 and I'm still learning new things.
+I started with Scratch, then Python, JavaScript, C#, C / C++ (Arduino), Go, Rust, etc.
+I also started in 2019 to be hosting own sites, tools or bots on Github, Gitlab or Raspberry Pis.
+Some of them are still online and are maintained.
+At the moment I'm not so active creating projects, because I don't have enough time, but when I have time again, I will go further and create new projects and versions of projects.</p>]]></content>
+        <author>
+            <name>Minecodes</name>
+            <email>contact@minecodes.de</email>
+            <uri>https://minecodes.de</uri>
+        </author>
+        <category label="minecodes" term="minecodes"/>
+        <category label="blog" term="blog"/>
+        <category label="infos" term="infos"/>
+    </entry>
+</feed>
